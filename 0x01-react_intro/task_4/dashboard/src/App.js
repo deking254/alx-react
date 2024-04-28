@@ -5,12 +5,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div role='header-div' className="App-header">
+      <div data-role='header-div' className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 	<h1>School dashboard</h1>
       </div>
       <div className="App-line"></div>
-      <div role='body-div' className="App-body">
+      <div data-role='body-div' className="App-body">
         <p>Login to access the full dashboard</p>
 	<div className="inputs">
 	<div className="inputAndLabel">
@@ -27,7 +27,7 @@ function App() {
 	</div>
       </div>
       <div className="App-line"></div>
-      <div role='footer-div' className="App-footer">
+      <div data-role='footer-div' className="App-footer">
         <p>Copyright {util.getFullYear()} - {util.getFooterCopy()}</p>
       </div>
     </div>
